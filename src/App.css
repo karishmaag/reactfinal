@@ -1,38 +1,263 @@
-.App {
+*
+body{
+  padding:0px;
+    margin: 0px;   
+}
+#div1
+{
+  
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: absolute;
+  padding:200px;
+  margin-left:450px;
+  margin-top:150px;
   color: white;
+  font-style: italic;
+}
+#button
+{
+  margin-top: 20px;
+}
+#image
+{
+ 
+  width: 100vw;
+  height: 100vh; 
+}
+#back
+{
+    
+  width: 100vw;
+  height: 100vh; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:#c2c1bc;
+    font-family: 'Source Serif Pro', serif;
+}
+nav ul {
+    display:flex ;
+    justify-content:space-between ;
+    align-content:space-between ;
+    align-items:center ;
+    list-style:none;
+    padding:20px;
+    
+
+}
+.logo img{
+    width:80px ;
+    height:80px ;
+    padding:0.5em;
+    border:0.5em solid black;
+}
+nav ul li{
+  margin:0 20px;
+  font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+ a:hover{
+    color:purple;
+}
+#header{
+    width:100vw;
+    height:45vh;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:white;
+}
+#bio{
+    padding:80px ;
+    display: flex;
+    column-gap: 100px;
+}
+ #bio article *{
+    margin: 20px; 
+}
+#port{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 50px;
+    margin-top: 50px;
+
+}
+#port h4,h3,hr{
+    margin-bottom: 20px;
+}
+ #port hr{
+    width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+#port div{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    width: 100%;
+ }
+ #port div article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width:300px ;
+    height: 300px;
+    background:white ;
+    color: black;
+    border-radius: 10px;
+ }
+  .space{
+    height:25vh ;
+ }
+ #skils{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding:50px ;
+    background-color:#c2c1bc;
+    color: aliceblue;
+ }
+ .skill-set{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+ }
+ .skill-set div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ #skils ul{
+    list-style: none;
+ }
+  
+ #skils ul li{
+    margin: 10px 0;
+ }
+ progress[value]{
+    height: 10px;
+    width: 500px;
+    -webkit-appearance:none;
 }
+::-webkit-progress-value{
+    background-color: #14a1cc;
+}
+progress[value]::-webkit-progress-bar{
+    background-color: white;
+    border: 2px;
+    box-shadow: 0 2px 5px solid black;
+}
+#contact{
+    
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px;
+    margin-left:200px;
+}
+.input{
+   line-height: 2em;
+    width: 18em;
+    border-radius:3px;
+    border-color: black;
+    margin: 10px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+#contact form input:last-child{
+    margin-top: 30px;
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+#port div article img
+{
+ height: 25vh;
+ width:15vw;
+}
+#con
+{
+    background-color: black;
+}
+#sub
+{
+    margin-bottom: 20px;
+}
+#fin
+{
+    color: white;
+    margin-left: 400px;
+}
+#fin2
+{
+    color: white;
+    margin-left: 300px;
+}
+#con2
+{
+   background-color:  black;
+  
+}
+#f
+{
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+#b
+{
+    margin-left: 540px;
+}
+#tech
+{
+    margin-top: 40px;
+}
+#s
+{
+    color: black;
+    font-weight:bold;
+}
+#van
+{
+    background-color: black;
+
+}
+#hyu
+{
+   color: white;
+   text-decoration: none;
+}
+#lo
+{   
+    border:0.5em #c2c1bc;
+   
+}
+#con4
+{
+    background-color: black;
+    margin-top: 250px;
+}
+#footer
+{
+background-color: black;
+}
+#sub
+{
+    margin-top: 25px;
 }
